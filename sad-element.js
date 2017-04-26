@@ -2,7 +2,7 @@
 * sad-element.js
 * Sad Element
 * Chris Allinson
-* v1.1.0
+* v1.1.1
 */
 
 
