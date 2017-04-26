@@ -2,23 +2,59 @@
 * sad-element.css
 * Sad Element
 * Chris Allinson
-* v1.1.0
+* v1.1.1
 */
 
 
 .sad-element-1 {
-  transform: translate(0px, -10px);
+  -webkit-transform: translate(0px, -10px);
+     -moz-transform: translate(0px, -10px);
+      -ms-transform: translate(0px, -10px);
+       -o-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+  -webkit-transition: -webkit-transform 0.1s linear;
+  transition: -webkit-transform 0.1s linear;
+  -o-transition: -o-transform 0.1s linear;
+  -moz-transition: transform 0.1s linear, -moz-transform 0.1s linear;
   transition: transform 0.1s linear;
+  transition: transform 0.1s linear, -webkit-transform 0.1s linear, -moz-transform 0.1s linear, -o-transform 0.1s linear;
 }
 .sad-element-2 {
-  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+     -moz-transform: translate(0px, 5px);
+      -ms-transform: translate(0px, 5px);
+       -o-transform: translate(0px, 5px);
+          transform: translate(0px, 5px);
+  -webkit-transition: -webkit-transform 0.1s linear;
+  transition: -webkit-transform 0.1s linear;
+  -o-transition: -o-transform 0.1s linear;
+  -moz-transition: transform 0.1s linear, -moz-transform 0.1s linear;
   transition: transform 0.1s linear;
+  transition: transform 0.1s linear, -webkit-transform 0.1s linear, -moz-transform 0.1s linear, -o-transform 0.1s linear;
 }
 .sad-element-3 {
-  transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+     -moz-transform: translate(0px, -5px);
+      -ms-transform: translate(0px, -5px);
+       -o-transform: translate(0px, -5px);
+          transform: translate(0px, -5px);
+  -webkit-transition: -webkit-transform 0.1s linear;
+  transition: -webkit-transform 0.1s linear;
+  -o-transition: -o-transform 0.1s linear;
+  -moz-transition: transform 0.1s linear, -moz-transform 0.1s linear;
   transition: transform 0.1s linear;
+  transition: transform 0.1s linear, -webkit-transform 0.1s linear, -moz-transform 0.1s linear, -o-transform 0.1s linear;
 }
 .sad-element-4 {
-  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+     -moz-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+       -o-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: -webkit-transform 0.1s linear;
+  transition: -webkit-transform 0.1s linear;
+  -o-transition: -o-transform 0.1s linear;
+  -moz-transition: transform 0.1s linear, -moz-transform 0.1s linear;
   transition: transform 0.1s linear;
+  transition: transform 0.1s linear, -webkit-transform 0.1s linear, -moz-transform 0.1s linear, -o-transform 0.1s linear;
 }
