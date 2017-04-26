@@ -1,0 +1,57 @@
+{
+  "name": "sad-element",
+  "version": "1.1.0",
+  "description": "A visual effect for error handling",
+  "keywords": [
+    "ux",
+    "user experience",
+    "error",
+    "error handling",
+    "visual",
+    "effect",
+    "cue",
+    "shake",
+    "bounce",
+    "html",
+    "css",
+    "animation",
+    "transform",
+    "transition",
+    "element"
+  ],
+  "homepage": "http://www.allinson.ca/a/sadelement",
+  "bugs": {
+    "url": "http://www.allinson.ca/a/sadelement",
+    "email": "allinson.ca@hotmail.com"
+  },
+  "license": "EULA",
+  "author": "Chris Allinson <allinson.ca@hotmail.com>",
+  "contributors": [
+    {
+      "name": "Chris Allinson",
+      "email": "allinson.ca@hotmail.com",
+      "url": "http://www.allinson.ca"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "sad-element.js",
+    "sad-element.css"
+  ],
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisAllinson/SadElement-JS"
+  },
+  "scripts": {
+    "start": "",
+    "test": ""
+  },
+  "config": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "private": false
+}
