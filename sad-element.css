@@ -2,7 +2,7 @@
 * sad-element.css
 * Sad Element
 * Chris Allinson
-* v1.1.1
+* v1.2.0
 */
 
 
@@ -19,6 +19,7 @@
   transition: transform 0.1s linear;
   transition: transform 0.1s linear, -webkit-transform 0.1s linear, -moz-transform 0.1s linear, -o-transform 0.1s linear;
 }
+
 .sad-element-2 {
   -webkit-transform: translate(0px, 5px);
      -moz-transform: translate(0px, 5px);
@@ -32,6 +33,7 @@
   transition: transform 0.1s linear;
   transition: transform 0.1s linear, -webkit-transform 0.1s linear, -moz-transform 0.1s linear, -o-transform 0.1s linear;
 }
+
 .sad-element-3 {
   -webkit-transform: translate(0px, -5px);
      -moz-transform: translate(0px, -5px);
@@ -45,6 +47,7 @@
   transition: transform 0.1s linear;
   transition: transform 0.1s linear, -webkit-transform 0.1s linear, -moz-transform 0.1s linear, -o-transform 0.1s linear;
 }
+
 .sad-element-4 {
   -webkit-transform: translate(0px, 0px);
      -moz-transform: translate(0px, 0px);

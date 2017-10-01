@@ -1,0 +1,46 @@
+/*
+* sad-element.scss
+* Sad Element
+* Chris Allinson
+* v1.2.0
+*/
+
+
+$legAmplitude1: -10px;
+$legAmplitude2: 5px;
+$legAmplitude3: -5px;
+$legAmplitude4: 0px;
+// override
+@if $amplitude {
+  $legAmplitude1: unquote('-' + $amplitude + 'px');
+  $legAmplitude2: unquote($amplitude + 'px');
+  $legAmplitude3: unquote('-' + $amplitude / 2 + 'px');
+  $legAmplitude4: 0px;
+}
+
+$legDuration: 0.1s;
+// override
+@if $duration {
+  $legDuration: unquote($duration / 4 + 's');
+}
+
+
+.sad-element-1 {
+  transform: translate(0px, $legAmplitude1);
+  transition: transform $legDuration linear;
+}
+
+.sad-element-2 {
+  transform: translate(0px, $legAmplitude2);
+  transition: transform $legDuration linear;
+}
+
+.sad-element-3 {
+  transform: translate(0px, $legAmplitude3);
+  transition: transform $legDuration linear;
+}
+
+.sad-element-4 {
+  transform: translate(0px, $legAmplitude4);
+  transition: transform $legDuration linear;
+}
