@@ -16,13 +16,13 @@ A visual effect for error handling.
 
 * sad-element.css
 
+* sad-element.scss
+
 
 
 ## How to Use
 
-1. import .js and .css files into your project
-
-2. sadElement("DivId");
+[Docs](http://www.allinson.ca/a/sadelement)
 
 
 
