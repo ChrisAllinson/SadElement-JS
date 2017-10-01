@@ -1,23 +1,23 @@
 {
   "name": "sad-element",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A visual effect for error handling",
   "keywords": [
-    "ux",
-    "user experience",
     "error",
     "error handling",
+    "ux",
+    "user experience",
     "visual",
     "effect",
-    "cue",
     "shake",
     "bounce",
     "html",
+    "div",
+    "element",
     "css",
     "animation",
     "transform",
-    "transition",
-    "element"
+    "transition"
   ],
   "homepage": "http://www.allinson.ca/a/sadelement",
   "bugs": {
@@ -37,7 +37,8 @@
     "LICENSE",
     "README.md",
     "sad-element.js",
-    "sad-element.css"
+    "sad-element.css",
+    "sad-element.scss"
   ],
   "main": "",
   "repository": {
