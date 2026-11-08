@@ -2,8 +2,13 @@
 * sad-element.scss
 * Sad Element
 * Chris Allinson
-* v1.2.0
+* v1.2.1
 */
+
+
+// optional overrides (set before importing)
+$amplitude: null !default;
+$duration: null !default;
 
 
 $legAmplitude1: -10px;
@@ -12,16 +17,16 @@ $legAmplitude3: -5px;
 $legAmplitude4: 0px;
 // override
 @if $amplitude {
-  $legAmplitude1: unquote('-' + $amplitude + 'px');
-  $legAmplitude2: unquote($amplitude + 'px');
-  $legAmplitude3: unquote('-' + $amplitude / 2 + 'px');
+  $legAmplitude1: -$amplitude * 1px;
+  $legAmplitude2: $amplitude * 1px;
+  $legAmplitude3: -$amplitude * 0.5px;
   $legAmplitude4: 0px;
 }
 
 $legDuration: 0.1s;
 // override
 @if $duration {
-  $legDuration: unquote($duration / 4 + 's');
+  $legDuration: $duration * 0.25s;
 }
 
 
